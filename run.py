@@ -2,7 +2,7 @@ from iqoptionapi.stable_api import IQ_Option
 import logging
 import random
 logging.basicConfig(level=logging.DEBUG,format='%(asctime)s %(message)s')
-I_want_money=IQ_Option("maduabeyaa@gmail.com","19970218")
+I_want_money=IQ_Option("email","password")
 ALL_Asset=I_want_money.get_all_open_time()
 #check if open or not
 print(ALL_Asset["forex"]["EURUSD"]["open"])
